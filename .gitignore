@@ -1,0 +1,14 @@
+Assembly-CSharp.csproj
+CustomRP.sln
+.idea/.idea.CustomRP/riderModule.iml
+.idea/.idea.CustomRP/.idea/contentModel.xml
+.idea/.idea.CustomRP/.idea/encodings.xml
+.idea/.idea.CustomRP/.idea/indexLayout.xml
+.idea/.idea.CustomRP/.idea/modules.xml
+.idea/.idea.CustomRP/.idea/projectSettingsUpdater.xml
+.idea/.idea.CustomRP/.idea/workspace.xml
+.idea/.idea.CustomRP/.idea/codeStyles/codeStyleConfig.xml
+Library/
+Temp/
+Logs/
+obj/

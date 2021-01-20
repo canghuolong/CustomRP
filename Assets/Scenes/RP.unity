@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 615706577}
   - component: {fileID: 615706576}
   - component: {fileID: 615706575}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Capsule (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1249,7 +1249,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 51
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -1461,7 +1461,7 @@ GameObject:
   - component: {fileID: 1237374969}
   - component: {fileID: 1237374968}
   - component: {fileID: 1237374967}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1557,7 +1557,7 @@ GameObject:
   - component: {fileID: 1351430018}
   - component: {fileID: 1351430017}
   - component: {fileID: 1351430016}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1746,7 +1746,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1742271459}
   - component: {fileID: 1742271458}
-  - component: {fileID: 1742271457}
   m_Layer: 0
   m_Name: Secondary Camera
   m_TagString: Untagged
@@ -1754,14 +1753,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1742271457
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742271456}
-  m_Enabled: 1
 --- !u!20 &1742271458
 Camera:
   m_ObjectHideFlags: 0
@@ -1771,7 +1762,7 @@ Camera:
   m_GameObject: {fileID: 1742271456}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1793,7 +1784,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

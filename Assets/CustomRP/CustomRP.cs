@@ -10,6 +10,11 @@ namespace CustomRP
     {
         private readonly CameraRender _cameraRender = new CameraRender();
 
+        public CustomRP()
+        {
+            GraphicsSettings.useScriptableRenderPipelineBatching = true;
+            
+        }
         protected override void Render(ScriptableRenderContext context, Camera[] cameras)
         {
             foreach (var cam in cameras)

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit
+  m_Name: cube
   m_Shader: {fileID: 4800000, guid: c0cdffed639244b0b84edb9c6bf8e0d0, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

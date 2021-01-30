@@ -13,7 +13,6 @@ namespace CustomRP
         public CustomRP()
         {
             GraphicsSettings.useScriptableRenderPipelineBatching = true;
-            
         }
         protected override void Render(ScriptableRenderContext context, Camera[] cameras)
         {

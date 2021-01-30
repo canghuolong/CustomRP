@@ -41,13 +41,15 @@ namespace CustomRP
             var drawingSetting = new DrawingSettings();
             drawingSetting.SetShaderPassName(0,unlitShaderTagId);
             drawingSetting.sortingSettings = sortingSettings;
+            drawingSetting.enableInstancing = true;
+            drawingSetting.enableDynamicBatching = true;
             var filteringSetting = new FilteringSettings(RenderQueueRange.opaque);
             _context.DrawRenderers(_cullingResults,ref drawingSetting,ref filteringSetting);
             
             _context.DrawSkybox(_camera);
 
             sortingSettings.criteria = SortingCriteria.CommonTransparent;
-            drawingSetting.sortingSettings = sortingSettings;
+            // drawingSetting.sortingSettings = sortingSettings;
             filteringSetting.renderQueueRange = RenderQueueRange.transparent;
             _context.DrawRenderers(_cullingResults,ref drawingSetting,ref filteringSetting);
 
